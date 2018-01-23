@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour {
+/*
+If blocks of code are like boxes, then the NewBehaviourScript is the name or identifier of this class
+Everything onward is inside this class
+Things inside this box cant access things outside this box, but things outside can access things inside this box
+*/
 
 	
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	
