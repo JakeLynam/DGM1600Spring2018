@@ -7,13 +7,14 @@ public class PowerUp : MonoBehaviour
 
 {
 	public int PowerLevel = 9000;
+	public Player CurrentPlayer;
 
 	public void RunPowerUp()
 
 	{
 		//Adds value 
-		//
-		Debug.Log(PowerLevel);
+		CurrentPlayer.Score += PowerLevel;
+		
 	}
 
 
